@@ -1,0 +1,5 @@
+/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/kms-Dashboard.dir
+/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/kms-Dashboard_autogen_timestamp_deps.dir
+/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/kms-Dashboard_autogen.dir

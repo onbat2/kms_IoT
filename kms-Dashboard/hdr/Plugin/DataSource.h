@@ -17,7 +17,7 @@ Q_SIGNALS:
 
 public slots:
     void generateData(int type, int rowCount, int colCount);
-    void update(QAbstractSeries *series);
+    void update(QtCharts::QAbstractSeries *series);
 
 private:
     QQmlApplicationEngine  *m_engine;

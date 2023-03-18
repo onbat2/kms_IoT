@@ -1,0 +1,27 @@
+# ninja log v5
+152	2002	1678967838544391733	CMakeFiles/kms-Dashboard.dir/src/View/HomeScreen.cpp.o	1dae11036e38c673
+12	970	1678091852701908818	CMakeFiles/kms-Dashboard.dir/src/Plugin/DataSource.cpp.o	fa8ec99ba13e2460
+145	2175	1679130441677613937	CMakeFiles/kms-Dashboard.dir/src/Model/AppModel.cpp.o	91e67f3218783ef6
+2	11	1679130490107455815	qrc_qml.cpp	2c1d21260035dc47
+151	2870	1678967839413342450	CMakeFiles/kms-Dashboard.dir/src/Handler/QSensorQMTT.cpp.o	765237f76d946722
+145	2474	1679130441977638559	CMakeFiles/kms-Dashboard.dir/src/AppEngine.cpp.o	bf64d0a2fc5dc183
+0	71	1679130617134453171	build.ninja	e0ccb0d377635ebb
+3	139	1679130439641446833	/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/kms-Dashboard_autogen/mocs_compilation.cpp	cbbadd87f7f81a77
+3	139	1679130439641446833	/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/kms-Dashboard_autogen/timestamp	cbbadd87f7f81a77
+145	2453	1679130441957636917	CMakeFiles/kms-Dashboard.dir/kms-Dashboard_autogen/mocs_compilation.cpp.o	bc06add397f53b9c
+113	476	1679130490571406687	kms-Dashboard	e97d2681ffbde3b6
+2	11	1679130490107455815	/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/qrc_qml.cpp	2c1d21260035dc47
+152	1718	1678967838260071329	CMakeFiles/kms-Dashboard.dir/src/Handler/QmlMQTTClient.cpp.o	9427b2b3b4853367
+3	139	1679130439641446833	kms-Dashboard_autogen/timestamp	cbbadd87f7f81a77
+149	919	1679129128961765887	CMakeFiles/kms-Dashboard.dir/src/Handler/QMLHandler.cpp.o	8298bf1e744f0f37
+11	113	1679130490211444804	CMakeFiles/kms-Dashboard.dir/qrc_qml.cpp.o	74c06feb71dfa426
+145	2639	1679130442145652346	CMakeFiles/kms-Dashboard.dir/src/main.cpp.o	2570d8067af2aced
+3	139	1679130439641446833	kms-Dashboard_autogen/mocs_compilation.cpp	cbbadd87f7f81a77
+2	12	1679130619534356005	qrc_qml.cpp	2c1d21260035dc47
+2	12	1679130619534356005	/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/qrc_qml.cpp	2c1d21260035dc47
+13	116	1679130619638351841	CMakeFiles/kms-Dashboard.dir/qrc_qml.cpp.o	74c06feb71dfa426
+116	478	1679130619998337429	kms-Dashboard	e97d2681ffbde3b6
+3	15	1679130702256253426	qrc_qml.cpp	2c1d21260035dc47
+3	15	1679130702256253426	/home/onbat2/kms_IoT/build-kms-Dashboard-Desktop_Qt_5_15_2_GCC_64bit-Debug/qrc_qml.cpp	2c1d21260035dc47
+15	119	1679130702360252154	CMakeFiles/kms-Dashboard.dir/qrc_qml.cpp.o	74c06feb71dfa426
+119	483	1679130702720247750	kms-Dashboard	e97d2681ffbde3b6

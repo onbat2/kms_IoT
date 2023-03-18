@@ -25,8 +25,15 @@ public:
         UserClickControl,
         UserClickMap,
         UserClickAccount,
+        LoginRequest,
     };
     Q_ENUM(E_EVENT_t)
+
+//    enum E_ACTION_t
+//    {
+//        LoginRequest = 0,
+//    };
+//    Q_ENUM(E_ACTION_t)
 
 signals:
 

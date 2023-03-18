@@ -10,21 +10,21 @@
 
 QT_CHARTS_USE_NAMESPACE
 
-Q_DECLARE_METATYPE(QAbstractSeries *)
-Q_DECLARE_METATYPE(QAbstractAxis *)
+Q_DECLARE_METATYPE(QtCharts::QAbstractSeries *)
+Q_DECLARE_METATYPE(QtCharts::QAbstractAxis *)
 
 DataSource::DataSource(QQmlApplicationEngine *engine, QObject *parent) :
     QObject(parent),
     m_engine(engine),
     m_index(-1)
 {
-    qRegisterMetaType<QAbstractSeries*>();
-    qRegisterMetaType<QAbstractAxis*>();
+//    qRegisterMetaType<QtCharts::QAbstractSeries*>();
+//    qRegisterMetaType<QtCharts::QAbstractAxis*>();
 
     generateData(0, 5, 1024);
 }
 
-void DataSource::update(QAbstractSeries *series)
+void DataSource::update(QtCharts::QAbstractSeries *series)
 {
     if (series) {
         QXYSeries *xySeries = static_cast<QXYSeries *>(series);

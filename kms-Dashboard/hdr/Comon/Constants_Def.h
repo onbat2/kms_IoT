@@ -84,7 +84,9 @@ private:
     DEF_CONST(QString, CONTROL_IMG  , "control.svg" )
     DEF_CONST(QString, MAP_IMG      , "map.svg"     )
     DEF_CONST(QString, USER_IMG     , "user.svg"    )
+    DEF_CONST(QString, LOGINLOGO_IMG     , "loginlogo.svg"    )
     DEF_CONST(QString, MAP_MARKER   , IMAGE_FOLDER() + "mapmarker.png")
+
 
     // Config
 

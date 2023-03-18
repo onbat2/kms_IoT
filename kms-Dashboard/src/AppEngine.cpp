@@ -26,6 +26,7 @@ AppEngine::~AppEngine()
 void AppEngine::initEngine()
 {
     connect(QML_HANDLER, &QMLHandler::notifyQMLEvent, MODEL, &AppModel::slotReceiveEvent);
+
     qmlRegisterUncreatableType<AppEnums>("QmlCustomItem", 1, 0, "ENUMS", "Uncreatable");
 
     qmlRegisterType<QmlMqttClient>("MqttClient", 1, 0, "MqttClient");

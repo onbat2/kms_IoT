@@ -67,6 +67,7 @@ private:
     DEF_SCREEN(QML_FOLDER       , "file:" + BUILD_DIR + "/share/qml/")
     DEF_SCREEN(QML_APP     , QML_FOLDER() + "main.qml")
     DEF_SCREEN(QML_MAIN_SCREEN  , QML_FOLDER() + "MainScreen.qml")
+    DEF_SCREEN(QML_LOGIN_SCREEN  , QML_FOLDER() + "LoginScreen.qml")
     DEF_SCREEN(QML_TEST         , QML_FOLDER() + "TestScreen.qml")
 
     // detail screen
@@ -75,6 +76,9 @@ private:
     DEF_SCREEN(QML_MAP          , QML_FOLDER() + "Screen/Map/MapScreen.qml")
     DEF_SCREEN(QML_CONTROL      , QML_FOLDER() + "Screen/Control/ControlScreen.qml")
     DEF_SCREEN(QML_USER         , QML_FOLDER() + "Screen/User/UserScreen.qml")
+    // thêm 1 screen: logic : screen ngăng bằng def scr
+    // my_qml ~ 99% app_qml khac
+    // h
 
 
 };

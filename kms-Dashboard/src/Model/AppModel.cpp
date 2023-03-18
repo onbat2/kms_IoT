@@ -37,9 +37,25 @@ QString AppModel::currentPort() const
     return "1883";
 }
 
+QString AppModel::currentPass() const
+{
+    return m_pass;
+}
+
+QString AppModel::userName() const
+{
+    return m_userName;
+}
+
+bool AppModel::loginStatus() const
+{
+    return m_loginStatus;
+}
+
 void AppModel::startHomeScreen()
 {
-    m_sensor->connectMQTT(m_sensor->brokerHosts.at(0), 1883);
+    CONSOLE << m_sensor->brokerHosts.at(0);
+    m_sensor->connectMQTT("127.0.0.1", 1883);
     // m_sensor->MQTT_Subcrib(m_sensor->sensorsNode.at(0));
 }
 
@@ -77,6 +93,10 @@ void AppModel::slotReceiveEvent(int event)
         CONSOLE << "User Screen";
         setCurrentScreenID(AppEnums::UserScreen);
         break;
+    case static_cast<int>(AppEnums::E_EVENT_t::LoginRequest):
+        CONSOLE << "Login Request Screen";
+        LoginRequestCheck(this->userName(), this->currentPass());
+        break;
     default:
         break;
     }
@@ -97,6 +117,30 @@ void AppModel::setCurrentHostName(QString hostName)
 void AppModel::setCurrentPort(QString port)
 {
 
+}
+
+void AppModel::setUserName(QString user)
+{
+    m_userName = user;
+}
+
+void AppModel::setPass(QString pass)
+{
+    m_pass = pass;
+}
+
+void AppModel::setLoginStatus(bool status)
+{
+    m_loginStatus = status;
+}
+
+void AppModel::LoginRequestCheck(QString user, QString pass)
+{
+    // Login here
+    CONSOLE << user << " " << pass;
+
+    m_loginStatus = true;
+    emit loginStatusChanged(m_loginStatus);
 }
 
 AppModel::AppModel(QObject *parent)

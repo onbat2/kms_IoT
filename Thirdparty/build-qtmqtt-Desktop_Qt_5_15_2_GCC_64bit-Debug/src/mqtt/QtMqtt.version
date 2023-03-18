@@ -1,0 +1,2 @@
+Qt_5_PRIVATE_API {
+    qt_private_api_tag*;
